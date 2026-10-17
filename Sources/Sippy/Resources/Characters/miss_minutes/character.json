@@ -1,0 +1,6 @@
+{
+  "name": "Miss Minutes",
+  "states": { "walk": "walk", "hi": "hi", "wait": "wait" },
+  "frameDurations": { "walk": 0.07, "hi": 0.03, "wait": 0.08 },
+  "animatedExit": true
+}

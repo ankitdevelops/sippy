@@ -1,0 +1,30 @@
+# SwiftPM build output
+.build/
+.swiftpm/
+
+# Packaged artifacts (rebuild with the DMG command in the README)
+dist/
+# Track the release DMG, ignore any others
+*.dmg
+!Sippy.dmg
+
+# Source GIF artwork (kept out of the repo; extracted frames live in Sources)
+miss_minutes_clock/
+wb_smoke.log
+
+# Local tool venvs (recreate with pip install)
+.dmgtools/
+
+# macOS
+.DS_Store
+
+# Xcode (if the project is ever opened in full Xcode)
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.xccheckout
+
+# Editors
+.vscode/
+*.swp
+*~

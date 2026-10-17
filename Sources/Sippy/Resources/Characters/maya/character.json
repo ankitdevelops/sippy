@@ -1,0 +1,6 @@
+{
+  "name": "Maya",
+  "states": { "walk": "walk", "hi": "walk", "wait": "walk" },
+  "frameDurations": { "walk": 0.07, "hi": 2.09, "wait": 0.07 },
+  "animatedExit": false
+}
